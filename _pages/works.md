@@ -3,7 +3,7 @@ layout: splash
 title: "Works"
 permalink: /works/
 header:
-  overlay_color: "##3d348b"
+  overlay_color: "#3d348b"
   overlay_image: #/assets/images/mm-home-page-feature.jpg
   cta_label: #"<i class='fas fa-download'></i> Install Now"
   cta_url: #"/docs/quick-start-guide/"
@@ -17,25 +17,25 @@ feature_row:
     url: "https://github.com/akshayreddykotha/mobile-game-analytics"
     btn_class: "btn--primary"
     btn_label: "Learn More"
-  - image_path: /images/display-stat-flow-chart-border.jpg
-    alt: "stat-flow-chart"
-    title: "Statistical Test Selection Flow Chart"
-    excerpt: "A flow chart to help you select the right statistical tests for evaluating your experiments."
-    url: "https://github.com/pleonova/stat-tests"
+  - image_path: /images/rating-recommend.png
+    alt: "rating-prediction"
+    title: "Rating Prediction for Google Local - User reviews"
+    excerpt: "A sentiment driven rating prediction to better recommend places to visit for users."
+    url: "https://github.com/akshayreddykotha/rating-prediction-google-local"
     btn_class: "btn--primary"
     btn_label: "Learn More"
-  - image_path: /images/display-jd-classifier-border.jpg
-    alt: "jd-classifier"
-    title: "Job Description Classification Model"
-    excerpt: "A model that predicts whether a job description is for a data scientist or data analyst."
-    url: "https://github.com/pleonova/jd-classifier"
+  - image_path: #/images/display-jd-classifier-border.jpg
+    alt: "regression"
+    title: "Regression in Microsoft Excel"
+    excerpt: "Before diving into writing code for regression, this work highlights the concepts and assumptions using Excel."
+    url: "https://github.com/akshayreddykotha/regression-analysis-in-excel"
     btn_class: "btn--primary"
     btn_label: "Learn More"
-  - image_path: /images/display-ab-testing-border.jpg
-    alt: "AB Testing"
-    title: "AB Testing Python Templates"
-    excerpt: "A Jupyter notebook with re-usable code for running your own AB Tests.<br /><br />"
-    url: "https://github.com/pleonova/ab-testing"
+  - image_path: #/images/display-ab-testing-border.jpg
+    alt: "sql-querying"
+    title: "SQL Data Exploration on Jupyter"
+    excerpt: "A simple initiative to setup an environment locally and query. You also have some basic clauses covered in the blog.<br /><br />"
+    url: "/sql-querying-jupyter/"
     btn_class: "btn--primary"
     btn_label: "Learn More"
   - image_path: /images/display-tableau-border.jpg

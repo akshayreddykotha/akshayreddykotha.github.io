@@ -1,0 +1,10 @@
+# main links
+main:
+  - title: "About"
+    url: /about/
+  - title: "Works"
+    url: /works/
+#   - title: ""
+#     url: /collection-archive/
+#   - title: "Sitemap"
+#     url: /sitemap/

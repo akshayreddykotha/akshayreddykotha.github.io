@@ -3,7 +3,7 @@ layout: splash
 title: "Works"
 permalink: /works/
 header:
-  overlay_color: "#3D348B"
+  overlay_color: "#3d348b"
   overlay_image: #/assets/images/mm-home-page-feature.jpg
   cta_label: #"<i class='fas fa-download'></i> Install Now"
   cta_url: #"/docs/quick-start-guide/"

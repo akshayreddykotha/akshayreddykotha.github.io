@@ -40,7 +40,7 @@ feature_row:
     btn_label: "Learn More"
   - image_path: /images/what-is-what-statistics-data-science.png
     alt: "tableau-dashboard"
-    title: ""What is what in Statistics and Data Science - Tableau Dashboard"
+    title: "What is what in Statistics and Data Science - Tableau Dashboard"
     excerpt: "Collation of introductory information on different concepts in statistics and data science."
     url: "https://public.tableau.com/profile/akshaykotha#!/vizhome/TheWhat-is-WhatofStatisticsandDataScience/Dashboard"
     btn_class: "btn--primary"

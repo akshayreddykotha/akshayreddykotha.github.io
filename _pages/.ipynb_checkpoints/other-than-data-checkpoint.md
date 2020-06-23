@@ -12,3 +12,7 @@ I believe in connection, serendipity, perseverance, repetition, balance. I act i
 All the below of them entities makes me want to live more:
 
 Music discovery, Logic, Dance, Business, Sports
+
+## My playlist compilation:
+
+<iframe width="640" height="360" src="https://www.youtube.com/playlist?list=PL1vIte-UiQLgC70xgF6nDV1KTFtiM_1Vd" frameborder="0" allowfullscreen></iframe>

@@ -1,4 +1,5 @@
 ---
+layout: single
 title: "About"
 permalink: /about/
 excerpt: "About Akshay Kotha."

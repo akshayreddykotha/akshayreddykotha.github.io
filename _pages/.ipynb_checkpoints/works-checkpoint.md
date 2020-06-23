@@ -38,13 +38,13 @@ feature_row:
     url: "/sql-querying-jupyter/"
     btn_class: "btn--primary"
     btn_label: "Learn More"
-  - image_path: /images/display-tableau-border.jpg
-    alt: "Visualizing Data in Tableau"
-    title: "Visualizing Data in Tableau"
-    excerpt: "I recorded everything I did in May 2017 and gave a presentation on how I visualized my data using Tableau."
-    url: "/visualization-tableau/"
+  - image_path: /images/what-is-what-statistics-data-science.png
+    alt: "tableau-dashboard"
+    title: "What-is-what in Statistics and Data Science - Tableau Dashboard"
+    excerpt: "Collation of introductory information on different concepts in statistics and data science."
+    url: "https://public.tableau.com/profile/akshaykotha#!/vizhome/TheWhat-is-WhatofStatisticsandDataScience/Dashboard"
     btn_class: "btn--primary"
-    btn_label: "Learn More"
+    btn_label: "Bookmarks It"
 github:
   - excerpt: '{::nomarkdown}<iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=mmistakes&repo=minimal-mistakes&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe> <iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=mmistakes&repo=minimal-mistakes&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="158px" height="30px"></iframe>{:/nomarkdown}'
 

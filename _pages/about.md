@@ -1,8 +1,7 @@
 ---
 title: "About"
 permalink: /about/
-header:
-  #image: "/images/rock-colors-small.jpg"
+excerpt: "About Akshay Kotha."
 ---
 
 I have 2+ years of industry work experience in the informational technology space. I am a self-motivated analytics enthusiast inclined to generating actionable insights to support decision making and ultimately boost profitability. Graduated from Masters in Business Analytics at UC San Diego and available full time immediately to get into a data journey for the greater good.

@@ -3,6 +3,7 @@ layout: single
 title: "Other than data"
 permalink: /other-than-data/
 excerpt: "A different angle of life."
+author_profile: true
 
 ---
 

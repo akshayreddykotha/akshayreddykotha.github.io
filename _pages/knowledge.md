@@ -1,14 +1,14 @@
 ---
 layout: posts
-title: "Knowledeg"
+title: "Knowledge"
 permalink: /knowledge/
 author_profile: true
-header:
+<!-- header:
   overlay_color: "#3D348B"
   overlay_image: 
   cta_label: 
   cta_url: 
-  caption:
+  caption: -->
 excerpt: 'Everything and anything I gathered over time.'
 
 github:

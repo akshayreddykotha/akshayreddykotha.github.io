@@ -4,7 +4,11 @@ main:
     url: /about/
   - title: "Works"
     url: /works/
-#   - title: ""
+  - title: "Knowledge"
+    url: /knowledge/
+  - title: "Other than data"
+    url: /other-than-data/
+#   title: ""
 #     url: /collection-archive/
 #   - title: "Sitemap"
 #     url: /sitemap/

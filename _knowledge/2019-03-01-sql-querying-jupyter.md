@@ -1,3 +1,11 @@
+---
+title: "SQL on Jupyter Notebooks"
+date: 2019-03-01
+tags: [jupyter, sql]
+excerpt: "How can you run sql queries from a jupyter notebook. This post gives a simple idea of setting up a local server and then querying."
+mathjax: true
+---
+
 Parch and Posey database was used to explore different functional aspects of SQL from basic to advanced.
 
 This short project is to help anyone to setup their own local environment and practice querying. 

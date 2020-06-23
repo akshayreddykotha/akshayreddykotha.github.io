@@ -10,14 +10,14 @@ header:
   caption:
 excerpt: 'A collection of my data related works.'
 feature_row:
-  - image_path: #/images/display-data-diary-border.jpg
+  - image_path: /images/cookie-cats-banner.jpg
     alt: "mobile-game-analytics"
     title: "Mobile Game Analytics<br />A/B Testing"
     excerpt: "A quick-to-refer framework to make decision whether to run a test."
     url: "https://github.com/akshayreddykotha/mobile-game-analytics"
     btn_class: "btn--primary"
     btn_label: "Learn More"
-  - image_path: #/images/display-stat-flow-chart-border.jpg
+  - image_path: /images/rating-recommend.png
     alt: "rating-prediction"
     title: "Rating Prediction for Google Local - User reviews"
     excerpt: "A sentiment driven rating prediction to better recommend places to visit for users."
@@ -27,7 +27,7 @@ feature_row:
   - image_path: #/images/display-jd-classifier-border.jpg
     alt: "sql-querying"
     title: "SQL Data Exploration on Jupyter"
-    excerpt: "A simple initiative to setup an environment locally and query as you think. You also have some basic clauses covered in the blog."
+    excerpt: "A simple initiative to setup an environment locally and query. You also have some basic clauses covered in the blog."
     url: "/sql-querying-jupyter/"
     btn_class: "btn--primary"
     btn_label: "Learn More"
@@ -38,14 +38,13 @@ feature_row:
     url: "https://github.com/akshayreddykotha/regression-analysis-in-excel"
     btn_class: "btn--primary"
     btn_label: "Learn More"
-  - image_path: #/images/display-tableau-border.jpg
+  - image_path: /images/what-is-what-statistics-data-science.png
     alt: "tableau-dashboard"
     title: ""What is what in Statistics and Data Science - Tableau Dashboard"
-    excerpt: "Collation of introductory information on different concepts in statistics and data science"
+    excerpt: "Collation of introductory information on different concepts in statistics and data science."
     url: "https://public.tableau.com/profile/akshaykotha#!/vizhome/TheWhat-is-WhatofStatisticsandDataScience/Dashboard"
     btn_class: "btn--primary"
     btn_label: "Bookmark it"
-
 github:
   - excerpt: '{::nomarkdown}<iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=mmistakes&repo=minimal-mistakes&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe> <iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=mmistakes&repo=minimal-mistakes&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="158px" height="30px"></iframe>{:/nomarkdown}'
 

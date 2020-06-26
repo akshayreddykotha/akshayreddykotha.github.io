@@ -15,9 +15,11 @@ Music discovery, Logic, Dance, Business, Sports
 
 ## I say:
 
-### *"Actions are greater than words to silence all the curmudgeons out there..."*
+#### *"Actions are greater than words to silence all the curmudgeons out there..."*
 
-### *"Life is hard but definitely rewarding. We all live for that very small fraction of AHA! moments and keep moving on..."
+#### *"Life is hard but definitely rewarding. We all live for that very small fraction of AHA! moments and keep moving on..."*
+
+#### *Question everything, believe nothing...*
 
 ## My playlist compilation:
 

@@ -8,7 +8,7 @@ author_profile: true
 ---
 
 I have 2+ years of industry work experience in the informational technology space. I am a self-motivated analytics enthusiast inclined to generating actionable insights to support decision making and ultimately boost profitability. Graduated from Masters in Business Analytics at UC San Diego and available full time immediately to get into a data journey for the greater good.
-Feel free to click the [Works](https://akshayreddykotha.github.io/works/) to unveal the projects I worked on). Furthermore, I enjoy working on modelling and the interesting part to me is translating those results into an easy-to-understand language be it business or for fun.
+Feel free to click the [Works](https://akshayreddykotha.github.io/works/) to unveil the projects I worked on). Furthermore, I enjoy working on modelling and the interesting part to me is translating those results into an easy-to-understand language be it business or for fun.
 
 ## My skills
  

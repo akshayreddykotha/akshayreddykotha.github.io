@@ -24,3 +24,7 @@ Music discovery, Logic, Dance, Business, Sports
 ## My playlist compilation:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL1vIte-UiQLgC70xgF6nDV1KTFtiM_1Vd" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## What you can't find here on this website:
+
+* Nothing-really-important-something-worth-sharing - https://www.linkedin.com/pulse/nothing-really-important-something-worth-sharing-akshay-kotha/

@@ -16,7 +16,7 @@ Feel free to click the [Works](https://akshayreddykotha.github.io/works/) to unv
 
 *Machine Learning Forte*: Regression, Classification, Clustering, Decision Tree, XGBoost, Neural Networks, Ensemble
 
-*Visualization Forte*: ![Tableau](https://public.tableau.com/profile/akshaykotha#!/), Google Data Studio, R
+*Visualization Forte*: [Tableau](https://public.tableau.com/profile/akshaykotha#!/), Google Data Studio, R
 
 Programming: R, Python
 

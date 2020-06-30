@@ -27,4 +27,4 @@ Music discovery, Logic, Dance, Business, Sports
 
 ## What you can't find here on this website:
 
-* ![Nothing-really-important-something-worth-sharing](https://www.linkedin.com/pulse/nothing-really-important-something-worth-sharing-akshay-kotha/)
+* [Nothing-really-important-something-worth-sharing](https://www.linkedin.com/pulse/nothing-really-important-something-worth-sharing-akshay-kotha/)

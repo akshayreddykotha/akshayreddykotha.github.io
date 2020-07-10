@@ -10,6 +10,13 @@ header:
   caption:
 excerpt: 'A collection of my data related works.'
 feature_row:
+  - image_path: /images/tienda-google-merchandise-store.jpg
+    alt: "official-logo-google-merchandise-store"
+    title: "Google Merchandise Store - Discovery"
+    excerpt: "This is a prototype of C-level executive report to understand insights about website performace of a company. Here, it is Google Merchandise Store."
+    url: "https://datastudio.google.com/u/0/reporting/b3b98754-840f-4a38-a87e-c6b13229f221/page/qmuIB"
+    btn_class: "btn--primary"
+    btn_label: "View and Download Report"
   - image_path: /images/cookie-cats-banner.jpg
     alt: "mobile-game-analytics"
     title: "Mobile Game Analytics<br />A/B Testing"
@@ -45,13 +52,7 @@ feature_row:
     url: "https://public.tableau.com/profile/akshaykotha#!/vizhome/TheWhat-is-WhatofStatisticsandDataScience/Dashboard"
     btn_class: "btn--primary"
     btn_label: "Bookmark It"
-  - image_path: /images/tienda-google-merchandise-store.jpg
-    alt: "official-logo-google-merchandise-store"
-    title: "Google Merchandise Store - Discovery"
-    excerpt: "This is a prototype of C-level executive report to understand insights about website performace of a company. Here, it is Google Merchandise Store."
-    url: "https://datastudio.google.com/u/0/reporting/b3b98754-840f-4a38-a87e-c6b13229f221/page/qmuIB"
-    btn_class: "btn--primary"
-    btn_label: "View and Download Report"
+
     
 github:
   - excerpt: '{::nomarkdown}<iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=mmistakes&repo=minimal-mistakes&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe> <iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=mmistakes&repo=minimal-mistakes&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="158px" height="30px"></iframe>{:/nomarkdown}'

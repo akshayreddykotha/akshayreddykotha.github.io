@@ -1,16 +1,18 @@
 ---
+title: "Splash Page"
 layout: splash
-title: "Works"
 permalink: /works/
 header:
-  overlay_color: "#3d348b"
-  overlay_image: #/assets/images/mm-home-page-feature.jpg
-  cta_label: #"<i class='fas fa-download'></i> Install Now"
-  cta_url: #"/docs/quick-start-guide/"
-  caption:
-excerpt: 'A collection of my data related works.'
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: 
+  actions:
+    - label: "Download"
+      url: "https://github.com/mmistakes/minimal-mistakes/"
+  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+excerpt: "Bacon ipsum dolor sit amet salami ham hock ham, hamburger corned beef short ribs kielbasa biltong t-bone drumstick tri-tip tail sirloin pork chop."
 intro: 
-  - excerpt: 'GA, Google Data Studio, R, Python, Tableau, Jupyter, SQL'
+  - excerpt: ''
 feature_row:
   - image_path: #/images/tienda-google-merchandise-store.jpg
     alt: "official-logo-google-merchandise-store"
@@ -19,67 +21,49 @@ feature_row:
     url: "https://datastudio.google.com/u/0/reporting/b3b98754-840f-4a38-a87e-c6b13229f221/page/qmuIB"
     btn_class: "btn--primary"
     btn_label: "View and Download Report"
+  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
+    image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
+    alt: "placeholder image 2"
+    title: "Placeholder 2"
+    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    url: "#test-link"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+  - image_path: /assets/images/unsplash-gallery-image-3-th.jpg
+    title: "Placeholder 3"
+    excerpt: "This is some sample content that goes here with **Markdown** formatting."
 feature_row2:
-  - image_path: /images/cookie-cats-banner.jpg
-    alt: "mobile-game-analytics"
-    title: "Mobile Game Analytics A/B Testing"
-    excerpt: "A quick-to-refer framework to make decision whether to run a test."
-    url: "https://github.com/akshayreddykotha/mobile-game-analytics"
+  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
+    alt: "placeholder image 2"
+    title: "Placeholder Image Left Aligned"
+    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Left aligned with `type="left"`'
+    url: "#test-link"
+    btn_label: "Read More"
     btn_class: "btn--primary"
-    btn_label: "Learn More"
 feature_row3:
-  - image_path: /images/rating-recommend.png
-    alt: "rating-prediction"
-    title: "Rating Prediction for Google Local - User reviews"
-    excerpt: "A sentiment driven rating prediction to better recommend places to visit for users."
-    url: "https://github.com/akshayreddykotha/rating-prediction-google-local"
+  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
+    alt: "placeholder image 2"
+    title: "Placeholder Image Right Aligned"
+    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Right aligned with `type="right"`'
+    url: "#test-link"
+    btn_label: "Read More"
     btn_class: "btn--primary"
-    btn_label: "Learn More"
 feature_row4:
-  - image_path: #/images/display-jd-classifier-border.jpg
-    alt: "regression"
-    title: "Regression in Microsoft Excel"
-    excerpt: "Before diving into writing code for regression, this work highlights the concepts and assumptions using Excel."
-    url: "https://github.com/akshayreddykotha/regression-analysis-in-excel"
+  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
+    alt: "placeholder image 2"
+    title: "Placeholder Image Center Aligned"
+    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Centered with `type="center"`'
+    url: "#test-link"
+    btn_label: "Read More"
     btn_class: "btn--primary"
-    btn_label: "Learn More"
-feature_row5:
-  - image_path: https://img.particlenews.com/image.php?type=thumbnail_1024x576&url=2xR9wr_0Nt3lCjk00
-    alt: "sql-querying"
-    title: "SQL Data Exploration on Jupyter"
-    excerpt: "A simple initiative to setup an environment locally and query. You also have some basic clauses covered in the blog."
-    url: "/sql-querying-jupyter/"
-    btn_class: "btn--primary"
-    btn_label: "Learn More"
-feature_row6:
-  - image_path: /images/what-is-what-statistics-data-science.png
-    alt: "tableau-dashboard"
-    title: "What-is-what in Statistics and Data Science - Tableau Dashboard"
-    excerpt: "Collation of introductory information on different concepts in statistics and data science."
-    url: "https://public.tableau.com/profile/akshaykotha#!/vizhome/TheWhat-is-WhatofStatisticsandDataScience/Dashboard"
-    btn_class: "btn--primary"
-    btn_label: "Bookmark It"
-
-    
-github:
-  - excerpt: '{::nomarkdown}<iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=mmistakes&repo=minimal-mistakes&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe> <iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=mmistakes&repo=minimal-mistakes&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="158px" height="30px"></iframe>{:/nomarkdown}'
-
 ---
 
 {% include feature_row id="intro" type="center" %}
 
 {% include feature_row %}
 
-{% include feature_row id="feature_row2" %}
+{% include feature_row id="feature_row2" type="left" %}
 
-{% include feature_row id="feature_row3" %}
+{% include feature_row id="feature_row3" type="right" %}
 
-{% include feature_row id="feature_row4" %}
-
-{% include feature_row id="feature_row5" %}
-
-{% include feature_row id="feature_row6" %}
-
-
-
-
+{% include feature_row id="feature_row4" type="center" %}

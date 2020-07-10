@@ -48,7 +48,7 @@ feature_row:
   - image_path: /images/tienda-google-merchandise-store.jpg
     alt: "official-logo-google-merchandise-store"
     title: "Google Merchandise Store - Discovery"
-    excerpt: "This is a prototype of C-level executive report to understand insights from website of a company. Here it is Google       Merchandise Store."
+    excerpt: "This is a prototype of C-level executive report to understand insights about website performace of a company. Here, it is Google Merchandise Store."
     url: "https://datastudio.google.com/u/0/reporting/b3b98754-840f-4a38-a87e-c6b13229f221/page/qmuIB"
     btn_class: "btn--primary"
     btn_label: "View and Download Report"

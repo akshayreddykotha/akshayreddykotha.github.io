@@ -24,6 +24,7 @@ feature_row:
     url: "https://github.com/akshayreddykotha/mobile-game-analytics"
     btn_class: "btn--primary"
     btn_label: "Learn More"
+feature_row2:
   - image_path: /images/rating-recommend.png
     alt: "rating-prediction"
     title: "Rating Prediction for Google Local - User reviews"
@@ -59,9 +60,7 @@ github:
 
 ---
 
-{% include feature_row id="intro" type="center" %}
-
 {% include feature_row %}
 
-{% include feature_row id="feature_row2" type="left" %}
+{% include feature_row id="feature_row2" %}
 

@@ -12,7 +12,7 @@ excerpt: 'A collection of my data related works.'
 intro: 
   - excerpt: 'GA, Google Data Studio, R, Python, Tableau, Jupyter, SQL'
 feature_row:
-  - image_path: #/images/tienda-google-merchandise-store.jpg
+  - image_path: /images/tienda-google-merchandise-store.jpg
     alt: "official-logo-google-merchandise-store"
     title: "Google Merchandise Store - Discovery"
     excerpt: "This is a prototype of C-level report to understand website performace of a company. Here, it's Google Merchandise Store."

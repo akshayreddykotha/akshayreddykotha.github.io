@@ -194,7 +194,7 @@ plt.show()
 ```
 
 
-![png](images/chipotle_item_analysis_files/analysis_12_0.png)
+![png](/images/chipotle_item_analysis_files/analysis_12_0.png)
 
 
 It's reasonable to see most of the orders paying under `$15` for a fast-casual market player. Customers tend to buy shorter orders more often than ordering in bulk which is a rarity. 
@@ -210,7 +210,7 @@ plt.show()
 ```
 
 
-![png](images/chipotle_item_analysis_files/analysis_15_0.png)
+![png](/images/chipotle_item_analysis_files/analysis_15_0.png)
 
 
 
@@ -357,7 +357,7 @@ plt.show()
 ```
 
 
-![png](images/chipotle_item_analysis_files/analysis_21_0.png)
+![png](/images/chipotle_item_analysis_files/analysis_21_0.png)
 
 
 #### By most ordered
@@ -686,7 +686,7 @@ plt.show()
 ```
 
 
-![png](images/chipotle_item_analysis_files/analysis_35_0.png)
+![png](/images/chipotle_item_analysis_files/analysis_35_0.png)
 
 
 Just by looking at the wordcloud, a couple of insights are clearly visible:

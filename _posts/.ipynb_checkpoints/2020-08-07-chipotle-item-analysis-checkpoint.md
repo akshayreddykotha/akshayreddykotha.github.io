@@ -72,44 +72,44 @@ data.sample(5)
   </thead>
   <tbody>
     <tr>
-      <th>221</th>
-      <td>97</td>
+      <th>3264</th>
+      <td>1306</td>
+      <td>1</td>
+      <td>Canned Soft Drink</td>
+      <td>[Sprite]</td>
+      <td>1.25</td>
+    </tr>
+    <tr>
+      <th>1655</th>
+      <td>669</td>
       <td>1</td>
       <td>Chips</td>
       <td>NaN</td>
       <td>2.15</td>
     </tr>
     <tr>
-      <th>1691</th>
-      <td>685</td>
+      <th>2022</th>
+      <td>815</td>
       <td>1</td>
-      <td>Steak Burrito</td>
-      <td>[Fresh Tomato Salsa, [Rice, Cheese, Lettuce]]</td>
-      <td>9.25</td>
+      <td>Canned Soft Drink</td>
+      <td>[Diet Coke]</td>
+      <td>1.25</td>
     </tr>
     <tr>
-      <th>3453</th>
-      <td>1389</td>
+      <th>3306</th>
+      <td>1325</td>
+      <td>1</td>
+      <td>Chips</td>
+      <td>NaN</td>
+      <td>2.15</td>
+    </tr>
+    <tr>
+      <th>82</th>
+      <td>36</td>
       <td>1</td>
       <td>Chicken Burrito</td>
-      <td>[Fresh Tomato Salsa, [Rice, Sour Cream, Cheese...</td>
+      <td>[Fresh Tomato Salsa, [Rice, Black Beans, Chees...</td>
       <td>8.75</td>
-    </tr>
-    <tr>
-      <th>118</th>
-      <td>52</td>
-      <td>1</td>
-      <td>Steak Soft Tacos</td>
-      <td>[[Roasted Chili Corn Salsa (Medium), Tomatillo...</td>
-      <td>8.99</td>
-    </tr>
-    <tr>
-      <th>759</th>
-      <td>313</td>
-      <td>1</td>
-      <td>Burrito</td>
-      <td>[White Rice, Adobo-Marinated and Grilled Steak...</td>
-      <td>7.40</td>
     </tr>
   </tbody>
 </table>
@@ -122,8 +122,8 @@ data.sample(5)
 
 ```python
 print(
-    "There are {} observations and {} features in this dataset. \n".format(
-        data.shape[0], data.shape[1]
+    "There are {} observations and {} features in this dataset. They are {}. \n".format(
+        data.shape[0], data.shape[1], ", ".join(list(data.columns))
     )
 )
 
@@ -146,7 +146,7 @@ print(
 )
 ```
 
-    There are 4622 observations and 5 features in this dataset. 
+    There are 4622 observations and 5 features in this dataset. They are order_id, quantity, item_name, choice_description, item_price. 
     
     There are 50 different items in this dataset such as Chips and Fresh Tomato Salsa, Izze, Nantucket Nectar, Chips and Tomatillo-Green Chili Salsa, Chicken Bowl... 
     
@@ -173,7 +173,7 @@ print(
     The avg. order price is $ 18.81
 
 
-### Avg. price paid by order
+### Avg. price paid by each order
 
 
 ```python
@@ -197,6 +197,8 @@ plt.show()
 ![png](images/chipotle_item_analysis_files/analysis_12_0.png)
 
 
+It's reasonable to see most of the orders paying under `$15` for a fast-casual market player. Customers tend to buy shorter orders more often than ordering in bulk which is a rarity. 
+
 ### Distribution of items per order
 
 
@@ -208,7 +210,7 @@ plt.show()
 ```
 
 
-![png](images/chipotle_item_analysis_files/analysis_14_0.png)
+![png](images/chipotle_item_analysis_files/analysis_15_0.png)
 
 
 
@@ -355,7 +357,7 @@ plt.show()
 ```
 
 
-![png](images/chipotle_item_analysis_files/analysis_20_0.png)
+![png](images/chipotle_item_analysis_files/analysis_21_0.png)
 
 
 #### By most ordered
@@ -647,6 +649,8 @@ pd.Series(df_without_na["item_name"].unique())
 %run list_to_string.py
 ```
 
+This is a neat way of getting a paricular task done by calling a function added in a .py file. It makes code easy to read for future reference and our team members.
+
 
 ```python
 # data transformation to string without any [] in the choice_description column
@@ -663,7 +667,7 @@ my_list = text.split(", ")
 word_count_dict = Counter(my_list)
 ```
 
-    There are 210889 choice additions in the choice descriptions.
+    There are 210889 choice additions in the choice descriptions of all the items ordered.
 
 
 ### What goes in the add-ons/choice description mostly?
@@ -682,10 +686,10 @@ plt.show()
 ```
 
 
-![png](images/chipotle_item_analysis_files/analysis_33_0.png)
+![png](images/chipotle_item_analysis_files/analysis_35_0.png)
 
 
-Just by looking at the wordcloud, a couple of insights are visible:
+Just by looking at the wordcloud, a couple of insights are clearly visible:
 * In all the orders pertaining to this dataset, a `bowl` or a `burrito` has `Rice`, `Lettuce`, `Cheese`, `Sour cream` as add-ons. While this maybe trivial to some of you, especially those from the Mexican descent, for someone who don't know anything about the Mexican cuisine like me, this is valuable information to form hypothesis. This applies to any data set one works on. In some cases, we as data analysts/scientists are pre-informed but in some cases, data itself tells us the new information we do not know till that point. It's about asking the right questions.
 * Among Salsa's, `Fresh Tomato Salsa` looks to be the top added add-on and then `Roasted Chili Corn Salsa`.
 * As beans are common in Mexican food, both Black and Pinto beans are visible in the top 100 add-ons. But as a matter of fact, Black beans has lower carbs than Pinto beans which could be a reason as all the food lovers like us in this data are preferring `Black Beans`.
@@ -715,8 +719,8 @@ set(data["item_name"].unique()) - set(df_without_na["item_name"].unique())
 
 
 
-A good check that the sides are mostly not customizable - data sanity check. It's good to have these sanity checks once in a while all through the data analysis and modelling to ensure reliable results. But that's not the end as there can be variation depending on the region, season, etc. That's where as a data analyst/scientist, one has to use communication witha team member to clarify whether all the listed elements are not customizable. Ultimately, data tells a story partially, to make it whole, business knowledge (as simple as the above example) and team play is necessary.
+A good check that the sides are mostly not customizable - data sanity check. It's good to have these sanity checks once in a while all through the data analysis and modelling to ensure reliable results. But that's not the end as there can be variation depending on the region, season, etc. That's where as a data analyst/scientist, one has to use communicate with a team member or someone in a senior role to clarify whether all the listed elements are not customizable. More generally, it's important to understand the holistic view of what the business is trying to achieve. Ultimately, data tells a story partially, to make it whole, business knowledge (as simple as the above example) and team play is necessary.
 
-This brings to the end of this simple walk-through and my plan from here on is to extend this analysis for a market basket analysis or to recommend what can a customer add as an add-on for a future order. 
+This brings to the end of this simple walk-through (fully accessible via this [repo](https://github.com/akshayreddykotha/mini-cases/tree/master/chipotle-item-analysis)) and my plan from here on is to extend this analysis for a market basket analysis or to recommend what can a customer add as an add-on for a future order. 
 
 Off to pondering whether this data is sufficient to do what struck me. If you have any ideas or loves to try different food cuisines, ping me - we can discuss about food or plan to implement the ideas for a great customer experience...

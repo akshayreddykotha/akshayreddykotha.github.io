@@ -8,7 +8,7 @@ mathjax: true
 
 ---
 
-This is a short exploratory walk through of an extract of transaction data (with no customer id but just order id) of orders at Chipotle. Main components are about how are different items priced at this Mexican Grill Cuisine and what are the common add-ons that orders include while a food lover customizes the order.
+This is short exploratory walk through of an extract of transaction data (with no customer id but just order id) of orders at Chipotle. Main components are about how are different items priced at this Mexican Grill Cuisine and what are the common add-ons that orders include while a food lover customizes the order.
 
 
 ```python
@@ -39,7 +39,7 @@ data["item_price"] = pd.Series(data["item_price"].str.replace("$", ""), dtype="f
 
 
 ```python
-data[:5]
+data.sample(5)
 ```
 
 
@@ -72,44 +72,44 @@ data[:5]
   </thead>
   <tbody>
     <tr>
-      <th>0</th>
+      <th>221</th>
+      <td>97</td>
       <td>1</td>
-      <td>1</td>
-      <td>Chips and Fresh Tomato Salsa</td>
+      <td>Chips</td>
       <td>NaN</td>
-      <td>2.39</td>
+      <td>2.15</td>
     </tr>
     <tr>
-      <th>1</th>
+      <th>1691</th>
+      <td>685</td>
       <td>1</td>
-      <td>1</td>
-      <td>Izze</td>
-      <td>[Clementine]</td>
-      <td>3.39</td>
+      <td>Steak Burrito</td>
+      <td>[Fresh Tomato Salsa, [Rice, Cheese, Lettuce]]</td>
+      <td>9.25</td>
     </tr>
     <tr>
-      <th>2</th>
+      <th>3453</th>
+      <td>1389</td>
       <td>1</td>
-      <td>1</td>
-      <td>Nantucket Nectar</td>
-      <td>[Apple]</td>
-      <td>3.39</td>
+      <td>Chicken Burrito</td>
+      <td>[Fresh Tomato Salsa, [Rice, Sour Cream, Cheese...</td>
+      <td>8.75</td>
     </tr>
     <tr>
-      <th>3</th>
+      <th>118</th>
+      <td>52</td>
       <td>1</td>
-      <td>1</td>
-      <td>Chips and Tomatillo-Green Chili Salsa</td>
-      <td>NaN</td>
-      <td>2.39</td>
+      <td>Steak Soft Tacos</td>
+      <td>[[Roasted Chili Corn Salsa (Medium), Tomatillo...</td>
+      <td>8.99</td>
     </tr>
     <tr>
-      <th>4</th>
-      <td>2</td>
-      <td>2</td>
-      <td>Chicken Bowl</td>
-      <td>[Tomatillo-Red Chili Salsa (Hot), [Black Beans...</td>
-      <td>16.98</td>
+      <th>759</th>
+      <td>313</td>
+      <td>1</td>
+      <td>Burrito</td>
+      <td>[White Rice, Adobo-Marinated and Grilled Steak...</td>
+      <td>7.40</td>
     </tr>
   </tbody>
 </table>
@@ -194,7 +194,7 @@ plt.show()
 ```
 
 
-![png](analysis_files/analysis_12_0.png)
+![png](images/chipotle_item_analysis_files/analysis_12_0.png)
 
 
 ### Distribution of items per order
@@ -208,7 +208,7 @@ plt.show()
 ```
 
 
-![png](analysis_files/analysis_14_0.png)
+![png](images/chipotle_item_analysis_files/analysis_14_0.png)
 
 
 
@@ -355,7 +355,7 @@ plt.show()
 ```
 
 
-![png](analysis_files/analysis_20_0.png)
+![png](images/chipotle_item_analysis_files/analysis_20_0.png)
 
 
 #### By most ordered
@@ -584,7 +584,7 @@ by_item.sort_values(by=["revenue"], ascending=False)[:10]
 
 
 * Chicken Bowl, Chicken Burrito, Steak Burrito, Steak Bowl get us the most revenue.
-* Chips and Guacamole is the most ordered as well as revenue generating sides
+* Chips and Guacamole is the most ordered as well as revenue-generating sides
 
 ### List of all the items where customization was possible
 
@@ -658,7 +658,7 @@ df_without_na["choice_description"] = df_without_na["choice_description"].apply(
 
 ```python
 text = ", ".join(cd for cd in df_without_na.choice_description)
-print("There are {} choice additions in the choice descriptions.".format(len(text)))
+print("There are {} choice additions in the choice descriptions of all the items ordered.".format(len(text)))
 my_list = text.split(", ")
 word_count_dict = Counter(my_list)
 ```
@@ -671,7 +671,7 @@ word_count_dict = Counter(my_list)
 
 ```python
 wordcloud = WordCloud(
-    stopwords=stopwords, background_color="white", width=1600, height=1200, scale=1.5
+    max_words = 100, background_color="white", width=1600, height=1200, scale=1.5
 ).generate_from_frequencies(word_count_dict)
 
 # Display the generated image
@@ -682,13 +682,13 @@ plt.show()
 ```
 
 
-![png](analysis_files/analysis_33_0.png)
+![png](images/chipotle_item_analysis_files/analysis_33_0.png)
 
 
 Just by looking at the wordcloud, a couple of insights are visible:
-* In all the orders pertaining to this dataset, a bowl or a burrito has Rice, Lettuce, Cheese, Sour cream as add-ons. While this maybe trivial to some of you, expecialy Mexican descent, for someone who don't know anything about the Mexican cuisine, this is valuable information to form hypothesis. This applies to any data set one works on. In some cases, we as data analysts/scientists are pre-informed but in some cases, data itself tells us the new information we do not know till that point.
-* Among Salsa's, Fresh Tomato Salsa looks to be the top added add-on and then Roasted Chili Corn Salsa
-* Asbeans are common in Mexican food, both Black and Pinto beans are visible. But as a matter of fact, Black beans has lower carbs than Pinto beans  which could be a reason as all the food lovers like us in this data are preferring `Black Beans`.
+* In all the orders pertaining to this dataset, a `bowl` or a `burrito` has `Rice`, `Lettuce`, `Cheese`, `Sour cream` as add-ons. While this maybe trivial to some of you, especially those from the Mexican descent, for someone who don't know anything about the Mexican cuisine like me, this is valuable information to form hypothesis. This applies to any data set one works on. In some cases, we as data analysts/scientists are pre-informed but in some cases, data itself tells us the new information we do not know till that point. It's about asking the right questions.
+* Among Salsa's, `Fresh Tomato Salsa` looks to be the top added add-on and then `Roasted Chili Corn Salsa`.
+* As beans are common in Mexican food, both Black and Pinto beans are visible in the top 100 add-ons. But as a matter of fact, Black beans has lower carbs than Pinto beans which could be a reason as all the food lovers like us in this data are preferring `Black Beans`.
 
 ### What are the items which doesn't have any choice_description (no customization)?
 
@@ -717,4 +717,6 @@ set(data["item_name"].unique()) - set(df_without_na["item_name"].unique())
 
 A good check that the sides are mostly not customizable - data sanity check. It's good to have these sanity checks once in a while all through the data analysis and modelling to ensure reliable results. But that's not the end as there can be variation depending on the region, season, etc. That's where as a data analyst/scientist, one has to use communication witha team member to clarify whether all the listed elements are not customizable. Ultimately, data tells a story partially, to make it whole, business knowledge (as simple as the above example) and team play is necessary.
 
-This brings to the end of this simple walk-through and my plan from here on is to extend this analysis for a market basket analysis or to recommend what can a customer add as an add-on in the next order. Off to pondering whether this data is sufficient to do what struck me. If you have any ideas or loves different food cuisines, ping me - we can discuss about food or plan to implement the ideas...
+This brings to the end of this simple walk-through and my plan from here on is to extend this analysis for a market basket analysis or to recommend what can a customer add as an add-on for a future order. 
+
+Off to pondering whether this data is sufficient to do what struck me. If you have any ideas or loves to try different food cuisines, ping me - we can discuss about food or plan to implement the ideas for a great customer experience...

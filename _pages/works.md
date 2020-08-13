@@ -16,7 +16,7 @@ feature_row:
     alt: "project-title"
     title: "Digital Advertising Spend Optimization - Media Mix Modelling"
     excerpt: "Goes all the way from raw clickstream data to estimating spend-to-sales effects at a million-dollar scale."
-    url: "akotha@ucsd.edu"
+    url: "https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&source=mailto&to=akotha@ucsd.edu"
     btn_class: "btn--primary"
     btn_label: "Ask me"
   - image_path: /images/tienda-google-merchandise-store.jpg

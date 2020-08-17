@@ -725,24 +725,21 @@ This brings to the end of this simple walk-through (fully accessible via this [r
 
 Off to pondering whether this data is sufficient to do what struck me. If you have any ideas or loves to try different food cuisines, ping me - we can discuss about food or plan to implement the ideas for a great customer experience...
 
-_Trivia_
-
-**What is the avg. number of orders in a week at Chipotle (any location)?**
+### Trivia
+#### What is the avg. number of orders in a week at Chipotle (any location)?
 
 Let's guesstimate...
 
 Equation: No. of restaurants of Chipotle x No. of weeks in a year (wk) x **No. of orders per week** (orders/wk) x Revenue per order (USD/orders) = Total annual revenue (USD). Check if the units are balanced on both sides.
 
-We get the `Revenue per order` from the above dataset. (remember this is an avg. figure) = `$`(34500/1834) USD
+We get the `Revenue per order` from the above dataset. (remember this is an avg. figure) = `$`(34500/1834) USD. The other data points like revenue and no. of locations are openly available.
 
 *Assumptions*
 
-Inevitably, valid assumptions are key to calculating estimates. 
-* A core assumptions to this particular calculation is - the revenue generated in this data set is only for a single location/restaurant.
+Inevitably, valid assumptions are key to calculating estimates:
+* A core assumption to this particular calculation is - the revenue generated in this data set is only for a single location/restaurant.
 * Chipotle's annual revenue amounts to what it is just because of food orders
 * The total revenue amounts to both in-store and online sales.
-
-The other data points like revenue and no. of locations are openly available.
 
 No. of orders per week = 6B (USD) / (2500 * 52 * **No. of orders per week** * (34500/1834))
 

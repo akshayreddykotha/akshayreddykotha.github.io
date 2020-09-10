@@ -1,7 +1,7 @@
 ---
 layout: single
-title: "Other than data"
-permalink: /other-than-data/
+title: "What else"
+permalink: /what-else/
 excerpt: "A different angle of life."
 author_profile: true
 
@@ -20,9 +20,9 @@ Music discovery, Logic, Dance, Business, Sports
 ##### *"Actions are greater than words to silence all the curmudgeons out there..."*
 
 ##### *"If you can't outsmart someone, outwork them..."*
-<p style="float:right"> - a good old entrepreneur wrote it to me on a napkin at a bar</p>
+<p style="float:right"> - a good ol' entrepreneur tells me</p>
 
-##### *"Life is hard but definitely rewarding. We all live for that very small fraction of AHA! moments and keep moving on..."*
+##### *"Life is hard but definitely rewarding. We all live for that very small fraction of AHA! moments and keep moving on for the next..."*
 
 ##### *"Question everything, believe nothing..."*
 

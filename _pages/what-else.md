@@ -28,7 +28,7 @@ Music discovery, Logic, Dance, Business, Sports
 
 ## To chill once in a while:
 
-<iframe width="50%" height="215" src="https://www.youtube.com/embed/videoseries?list=PL1vIte-UiQLhZjjtHEecxcN1zORSKna8U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL1vIte-UiQLhZjjtHEecxcN1zORSKna8U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Producing music just feels as creative as data science
 

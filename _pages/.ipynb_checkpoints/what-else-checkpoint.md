@@ -28,14 +28,10 @@ Music discovery, Logic, Dance, Business, Sports
 
 ## To chill once in a while:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL1vIte-UiQLhZjjtHEecxcN1zORSKna8U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-## Producing music just feels as creative as data science
-
-<iframe width="50%" height="100" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/963172216&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/nocturnal-infatuations" title="Nocturnal Infatuations" target="_blank" style="color: #cccccc; text-decoration: none;">Nocturnal Infatuations</a> · <a href="https://soundcloud.com/nocturnal-infatuations/got-it" title="Got It" target="_blank" style="color: #cccccc; text-decoration: none;">Got It</a></div>
-
-<iframe width="50%" height="100" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/951484420&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/nocturnal-infatuations" title="Nocturnal Infatuations" target="_blank" style="color: #cccccc; text-decoration: none;">Nocturnal Infatuations</a> · <a href="https://soundcloud.com/nocturnal-infatuations/come-follow-me" title="Come Follow Me" target="_blank" style="color: #cccccc; text-decoration: none;">Come Follow Me</a></div>
+<iframe width="360" height="115" src="https://www.youtube.com/embed/videoseries?list=PL1vIte-UiQLhZjjtHEecxcN1zORSKna8U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## What you can't find here on this website:
 
 * [Nothing-really-important-something-worth-sharing](https://www.linkedin.com/pulse/nothing-really-important-something-worth-sharing-akshay-kotha/)
+
+* [Talent-is-distributed...](https://philoinme.wordpress.com/2020/12/06/talent-is-distributed-there-is-nothing-like-a-true-genius-in-21st-century-its-a-rarity/)

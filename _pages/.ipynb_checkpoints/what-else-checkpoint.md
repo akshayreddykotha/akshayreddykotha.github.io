@@ -26,6 +26,8 @@ Music discovery, Logic, Dance, Business, Sports
 
 ##### *"Question everything, believe nothing..."*
 
+##### *"Not everyday is the same..."*
+
 ## To chill once in a while:
 
 <iframe width="360" height="115" src="https://www.youtube.com/embed/videoseries?list=PL1vIte-UiQLhZjjtHEecxcN1zORSKna8U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

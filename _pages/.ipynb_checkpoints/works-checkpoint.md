@@ -10,8 +10,15 @@ header:
   caption:
 excerpt: 'A collection of my data related works.'
 intro: 
-  - excerpt: 'MS Excel, GA, Google Data Studio, R - R Studio, Python - Jupyter, Tableau, SQL'
+  - excerpt: 'MS Excel, GA, Google Data Studio, R - R Studio, Python - Jupyter, AWS SageMaker, Dataiku, Tableau, SQL'
 feature_row:
+  - image_path: /images/people-data.jpg
+    alt: "python-package"
+    title: "People Analytics Data Python Package"
+    excerpt: "This package is port of an R package associated with the free online book Handbook of Regression Modeling in People Analytics"
+    url: "https://github.com/akshayreddykotha/peopleanalyticsdata"
+    btn_class: "btn--primary"
+    btn_label: "Learn more"
   - image_path: /images/media-mix-modelling.png
     alt: "project-title"
     title: "Digital Advertising Spend Optimization - Media Mix Modelling"
@@ -26,6 +33,8 @@ feature_row:
     url: "https://datastudio.google.com/u/0/reporting/b3b98754-840f-4a38-a87e-c6b13229f221/page/qmuIB"
     btn_class: "btn--primary"
     btn_label: "View and download Report"
+  
+feature_row3:
   - image_path: /images/cookie-cats-banner.jpg
     alt: "mobile-game-analytics"
     title: "Mobile Game Analytics A/B Testing"
@@ -33,7 +42,6 @@ feature_row:
     url: "https://github.com/akshayreddykotha/mobile-game-analytics"
     btn_class: "btn--primary"
     btn_label: "Learn more"
-feature_row3:
   - image_path: /images/rating-recommend.png
     alt: "rating-prediction"
     title: "Rating Prediction for Google Local - User reviews"
@@ -63,8 +71,9 @@ feature_row5:
     url: "https://public.tableau.com/profile/akshaykotha#!/vizhome/TheWhat-is-WhatofStatisticsandDataScience/Dashboard"
     btn_class: "btn--primary"
     btn_label: "Bookmark It"
-
     
+Credit to all the thumbnails which aren't mine.
+
 github:
   - excerpt: '{::nomarkdown}<iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=mmistakes&repo=minimal-mistakes&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe> <iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=mmistakes&repo=minimal-mistakes&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="158px" height="30px"></iframe>{:/nomarkdown}'
 

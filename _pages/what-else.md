@@ -28,6 +28,8 @@ Music discovery, Logic, Dance, Business, Sports
 
 ##### *"Not everyday is the same..."*
 
+#### *"One can't run away from facts of life..."*
+
 ## To chill once in a while:
 
 <iframe width="360" height="115" src="https://www.youtube.com/embed/videoseries?list=PL1vIte-UiQLhZjjtHEecxcN1zORSKna8U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

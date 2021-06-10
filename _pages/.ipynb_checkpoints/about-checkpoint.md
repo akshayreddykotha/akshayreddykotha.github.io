@@ -23,3 +23,7 @@ Feel free to click the [Works](https://akshayreddykotha.github.io/works/) to unv
 *Relevant course work*: Customer Analytics, Pricing Analytics, Web Mining and Recommender Systems
 
 *Function specific Forte*: CLV Customer Lifetime Value) Analysis, RFM (Recency, Frequency, Monetary Value) Analysis
+
+## In the community
+
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6807780799031582720" height="735" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>

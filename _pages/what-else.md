@@ -19,11 +19,6 @@ Music discovery, Logic, Dance, Business, Sports
 
 ##### *"Actions are greater than words to silence all the curmudgeons out there..."*
 
-##### *"If you can't outsmart someone, outwork them..."*
-<p style="float:right"> - from a good ol' entrepreneur</p>
-
-##### *"Life is hard but definitely rewarding. We all live for that very small fraction of AHA! moments and keep moving on for the next..."*
-
 ##### *"Question everything, believe nothing..."*
 
 ##### *"Not everyday is the same..."*

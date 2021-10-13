@@ -29,7 +29,7 @@ feature_row:
   - image_path: /images/tienda-google-merchandise-store.jpg
     alt: "official-logo-google-merchandise-store"
     title: "Google Merchandise Store - Discovery"
-    excerpt: "This is a prototype of C-level report to understand website performace of a company. Here, it's Google Merchandise Store."
+    excerpt: "This is a prototype of C-level report to understand website performance of a company. Here, it's Google Merchandise Store."
     url: "https://datastudio.google.com/u/0/reporting/b3b98754-840f-4a38-a87e-c6b13229f221/page/qmuIB"
     btn_class: "btn--primary"
     btn_label: "View and download Report"
@@ -57,6 +57,13 @@ feature_row3:
     btn_class: "btn--primary"
     btn_label: "Learn more"
 feature_row5:
+  - image_path: /images/google-merchandise-store-ga4.jpg
+    alt: "official-logo-google-merchandise-store-edit"
+    title: "Google Merchandise Store - Discovery - GA4 Edition"
+    excerpt: "This is a high level performance reporting of Google Merchandise Store data with GA4 functionality."
+    url: "https://datastudio.google.com/u/0/reporting/b3b98754-840f-4a38-a87e-c6b13229f221/page/qmuIB"
+    btn_class: "btn--primary"
+    btn_label: "View and download Report"
   - image_path: https://img.particlenews.com/image.php?type=thumbnail_1024x576&url=2xR9wr_0Nt3lCjk00
     alt: "sql-querying"
     title: "SQL Data Exploration on Jupyter"

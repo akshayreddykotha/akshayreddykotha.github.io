@@ -61,7 +61,7 @@ feature_row5:
     alt: "official-logo-google-merchandise-store-edit"
     title: "Google Merchandise Store - Discovery - GA4 Edition"
     excerpt: "This is a high level performance reporting of Google Merchandise Store data with GA4 functionality."
-    url: "https://datastudio.google.com/u/0/reporting/b3b98754-840f-4a38-a87e-c6b13229f221/page/qmuIB"
+    url: "https://datastudio.google.com/reporting/f49657cf-fd5b-4214-bea4-ae4d31db5459"
     btn_class: "btn--primary"
     btn_label: "View and download Report"
   - image_path: https://img.particlenews.com/image.php?type=thumbnail_1024x576&url=2xR9wr_0Nt3lCjk00

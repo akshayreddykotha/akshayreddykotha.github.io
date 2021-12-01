@@ -63,7 +63,7 @@ feature_row5:
     excerpt: "This is a high level performance reporting of Google Merchandise Store data with GA4 functionality."
     url: "https://datastudio.google.com/reporting/f49657cf-fd5b-4214-bea4-ae4d31db5459"
     btn_class: "btn--primary"
-    btn_label: "View and download Report"
+    btn_label: "View report"
   - image_path: https://img.particlenews.com/image.php?type=thumbnail_1024x576&url=2xR9wr_0Nt3lCjk00
     alt: "sql-querying"
     title: "SQL Data Exploration on Jupyter"

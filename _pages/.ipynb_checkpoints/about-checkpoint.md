@@ -27,3 +27,5 @@ Feel free to click the [Works](https://akshayreddykotha.github.io/works/) to unv
 ## In the community
 
 <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6807780799031582720" height="735" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6896580291637714945" height="735" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>

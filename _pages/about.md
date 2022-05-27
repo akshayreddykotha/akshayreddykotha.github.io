@@ -7,7 +7,7 @@ author_profile: true
 
 ---
 
-I have 4+ years of work experience in informational technology, e-learning, and insurance companies with a knack for marketing analytics. I am a self-motivated analytics enthusiast inclined to generate actionable insights to support decision-making and better the customer experience. Graduated with Masters in Business Analytics at UC San Diego and in a data journey for the greater good. Feel free to click the [Works](https://akshayreddykotha.github.io/works/) to unveil the projects I worked on). Furthermore, I enjoy working on modeling and the interesting part to me is translating those results into an easy-to-understand language be it business or for fun.
+I have 5+ years of work experience in e-learning, insurance, and the non-profit sector companies with a knack for marketing analytics. I am a self-motivated analytics enthusiast inclined to generate actionable insights to support decision-making and better the customer experience. Graduated with Masters in Business Analytics at UC San Diego and in a data journey for the greater good. Feel free to click the [Works](https://akshayreddykotha.github.io/works/) to unveil the projects I worked on). Furthermore, I enjoy working on modeling and the interesting part to me is translating those results into an easy-to-understand language be it business or for fun.
 
 ## My Forte
  

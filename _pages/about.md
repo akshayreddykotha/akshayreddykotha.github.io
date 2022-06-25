@@ -19,12 +19,12 @@ I have 5+ years of work experience in e-learning, insurance, and the non-profit 
 
 *Programming/Scripting*: R (caret, tidyverse), Python (NumPy, Pandas, matplotlib, seaborn), SQL (MS SQL Server, Postgresql)
 
-*Relevant course work*: Customer Analytics, Pricing Analytics, Web Mining and Recommender Systems
+*Relevant coursework*: Customer Analytics, Pricing Analytics, Web Mining and Recommender Systems
 
 *Function specific Forte*: CLV Customer Lifetime Value) Analysis, RFM (Recency, Frequency, Monetary Value) Analysis
 
 ## In the community
 
-<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6807780799031582720" height="735" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
-
-<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6896580291637714945" height="735" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+feature_row:
+- <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6807780799031582720" height="735" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+- image_path: /images/catchafire-impact.jpg

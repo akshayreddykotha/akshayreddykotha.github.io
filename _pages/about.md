@@ -5,8 +5,6 @@ permalink: /about/
 excerpt: "About Akshay Kotha."
 author_profile: true
 
----
-
 I have 5+ years of work experience in e-learning, insurance, and the non-profit sector companies with a knack for marketing analytics. I am a self-motivated analytics enthusiast inclined to generate actionable insights to support decision-making and better the customer experience. Graduated with Masters in Business Analytics at UC San Diego and in a data journey for the greater good. Feel free to click the [Works](https://akshayreddykotha.github.io/works/) to unveil the projects I worked on). Furthermore, I enjoy working on modeling and the interesting part to me is translating those results into an easy-to-understand language be it business or for fun.
 
 ## My Forte
@@ -28,3 +26,7 @@ I have 5+ years of work experience in e-learning, insurance, and the non-profit 
 feature_row:
 - <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6807780799031582720" height="735" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
 - image_path: /images/catchafire-impact.jpg
+
+---
+
+{% include feature_row %}

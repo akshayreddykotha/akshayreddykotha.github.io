@@ -12,6 +12,11 @@ excerpt: 'A collection of my data related works.'
 intro: 
   - excerpt: 'MS Excel, GA, Google Data Studio, R - R Studio, Python - Jupyter, AWS SageMaker, Dataiku, Tableau, SQL'
 feature_row:
+  - image_path: /images/catchafire-impact.jpg
+    alt: "pro-bono"
+    title: "Pro Bono Analytics"
+    excerpt: "Analytics help for non-profits"
+    btn_class: "btn--primary"
   - image_path: /images/people-data.jpg
     alt: "python-package"
     title: "People Analytics Data Python Package"
@@ -25,7 +30,8 @@ feature_row:
     excerpt: "Goes all the way from raw clickstream data to estimating spend-to-sales effects at a million-dollar scale."
     url: "https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&source=mailto&to=akotha@ucsd.edu"
     btn_class: "btn--primary"
-    btn_label: "Ask me"
+    btn_label: "Ask me"  
+feature_row3:
   - image_path: /images/tienda-google-merchandise-store.jpg
     alt: "official-logo-google-merchandise-store"
     title: "Google Merchandise Store - Discovery"
@@ -33,8 +39,6 @@ feature_row:
     url: "https://datastudio.google.com/u/0/reporting/b3b98754-840f-4a38-a87e-c6b13229f221/page/qmuIB"
     btn_class: "btn--primary"
     btn_label: "View and download Report"
-  
-feature_row3:
   - image_path: /images/cookie-cats-banner.jpg
     alt: "mobile-game-analytics"
     title: "Mobile Game Analytics A/B Testing"
@@ -49,6 +53,7 @@ feature_row3:
     url: "https://github.com/akshayreddykotha/rating-prediction-google-local"
     btn_class: "btn--primary"
     btn_label: "Learn more"
+feature_row5:
   - image_path: #/images/display-jd-classifier-border.jpg
     alt: "regression"
     title: "Regression in Microsoft Excel"
@@ -56,7 +61,6 @@ feature_row3:
     url: "https://github.com/akshayreddykotha/regression-analysis-in-excel"
     btn_class: "btn--primary"
     btn_label: "Learn more"
-feature_row5:
   - image_path: /images/google-merchandise-store-ga4.jpg
     alt: "official-logo-google-merchandise-store-edit"
     title: "Google Merchandise Store - Discovery - GA4 Edition"
@@ -71,6 +75,7 @@ feature_row5:
     url: "/sql-querying-jupyter/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
+feature_row7:
   - image_path: /images/what-is-what-statistics-data-science.png
     alt: "tableau-dashboard"
     title: "What-is-what in Statistics and Data Science - Tableau Dashboard"
@@ -98,6 +103,7 @@ github:
 
 <!-- {% include feature_row id="feature_row6" %}
  -->
+{% include feature_row id="feature_row7" %}
 
 
 

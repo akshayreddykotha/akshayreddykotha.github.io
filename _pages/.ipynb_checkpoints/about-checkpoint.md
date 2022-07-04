@@ -25,7 +25,11 @@ I have 5+ years of work experience in e-learning, insurance, and the non-profit 
 
 ## In the community
 
+### Open source contribution
+
 <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6807780799031582720" height="735" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+
+### Pro bono
 
 <iframe src="/images/catchafire-impact.jpg" height="420" width="800" frameborder="0" allowfullscreen="" title="Embedded Image"></iframe>
 

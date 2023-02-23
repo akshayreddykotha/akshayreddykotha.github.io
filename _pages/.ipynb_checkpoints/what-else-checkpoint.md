@@ -15,20 +15,19 @@ Music discovery, Logic, Dance, Business, Sports
 
 ## I say:
 
+##### *"Original Ideas win organically..."*
+
+##### *"If you don’t have anything nice to say, take a big bite and chew slow..."* - The Short Drop
+
 ##### *"You're built of everything you do..."*
 
 ##### *"Actions are greater than words to silence all the curmudgeons out there..."*
-
-##### *"If you can't outsmart someone, outwork them..."*
-<p style="float:right"> - from a good ol' entrepreneur</p>
-
-##### *"Life is hard but definitely rewarding. We all live for that very small fraction of AHA! moments and keep moving on for the next..."*
 
 ##### *"Question everything, believe nothing..."*
 
 ##### *"Not everyday is the same..."*
 
-#### *"One can't run away from facts of life..."*
+##### *"One can't run away from facts of life..."*
 
 ## To chill once in a while:
 

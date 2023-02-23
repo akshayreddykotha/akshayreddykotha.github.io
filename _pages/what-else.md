@@ -15,6 +15,10 @@ Music discovery, Logic, Dance, Business, Sports
 
 ## I say:
 
+##### *"Original Ideas win organically..."*
+
+##### *"If you don’t have anything nice to say, take a big bite and chew slow..."* - The Short Drop
+
 ##### *"You're built of everything you do..."*
 
 ##### *"Actions are greater than words to silence all the curmudgeons out there..."*
@@ -23,7 +27,7 @@ Music discovery, Logic, Dance, Business, Sports
 
 ##### *"Not everyday is the same..."*
 
-#### *"One can't run away from facts of life..."*
+##### *"One can't run away from facts of life..."*
 
 ## To chill once in a while:
 

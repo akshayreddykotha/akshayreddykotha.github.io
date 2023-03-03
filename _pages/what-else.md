@@ -13,7 +13,9 @@ All the below of them entities makes me want to live more:
 
 Music discovery, Logic, Dance, Business, Sports
 
-## I say:
+## I echo with:
+
+##### *"Humility is not thinking less of yourself, it's thinking of yourself less..."* - C.S. Lewis
 
 ##### *"Original Ideas win organically..."*
 

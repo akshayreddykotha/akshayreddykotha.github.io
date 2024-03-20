@@ -10,12 +10,12 @@ header:
   caption:
 excerpt: 'A collection of my data related works.'
 intro: 
-  - excerpt: 'MS Excel, GA, Google Data Studio, R - R Studio, Python - Jupyter, AWS SageMaker, Dataiku, Tableau, SQL'
+  - excerpt: 'Corporate Story-telling, AWS Athena (SQL), AWS Quicksight, MS Excel, GA, Looker Studio (Google Data Studio), R - R Studio, Python - Jupyter, AWS SageMaker, Dataiku, Adobe Analytics, Tableau'
 feature_row:
   - image_path: /images/hows-life.png
     alt: "official-logo-oecd-better-life-initiative"
     title: "Quality of Life Analysis - OECD Nations"
-    excerpt: "This is a high level performance reporting of Google Merchandise Store data with GA4 functionality."
+    excerpt: "This is a quality of life analysis/comparison between OECD countries and select countries of interest focused on the recent years across different indicators like job quality, social interactions, health, etc."
     url: "https://lookerstudio.google.com/s/k3oMvSUmD5k"
     btn_class: "btn--primary"
     btn_label: "View report" 

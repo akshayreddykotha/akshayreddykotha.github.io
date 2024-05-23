@@ -23,7 +23,9 @@ feature_row:
     alt: "pro-bono"
     title: "Pro Bono Analytics"
     excerpt: "Analytics help for non-profits"
+    url: https://www.catchafire.org/profiles/1635490/
     btn_class: "btn--primary"
+    btn_label: "List of projects"
   - image_path: /images/people-data.jpg
     alt: "python-package"
     title: "People Analytics Data Python Package"

@@ -1,6 +1,6 @@
 ---
 title: "Clean Hydrogen - Is it worth it?"
-date: 2016-06-09
+date: 2025-02-12
 tags: [environment, decarbonization, energy, industry]
 excerpt: ""
 mathjax: true

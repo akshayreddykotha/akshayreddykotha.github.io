@@ -10,20 +10,30 @@ header:
   caption:
 excerpt: 'A collection of my data related works.'
 intro: 
-  - excerpt: 'Corporate Story-telling, AWS Athena (SQL), AWS Quicksight, MS Excel, GA, Looker Studio (Google Data Studio), R - R Studio, Python - Jupyter, AWS SageMaker, Dataiku, Adobe Analytics, Tableau'
+  - excerpt: 'Corporate Story-telling, AWS Athena (SQL), AWS Quicksight, MS Excel, GA, Looker Studio (Google Data Studio), R - R Studio, Python - Jupyter, AWS Quicksight, AWS SageMaker, Dataiku, Adobe Analytics, Tableau'
 feature_row:
+  - image_path: /images/
+    alt: "snapshot-energy-mix"
+    title: "Energy Mix Over Time - EIA"
+    excerpt: "This is a trend analyis of electricity generation across Renewable and Non Renewable sources in the US."
+    url: "https://lookerstudio.google.com/s/j5eZ9Fl33WM"
+    btn_class: "btn--primary"
+    btn_label: "View analysis" 
+feature_row3:
   - image_path: /images/hows-life.png
     alt: "official-logo-oecd-better-life-initiative"
     title: "Quality of Life Analysis - OECD Nations"
-    excerpt: "This is a quality of life analysis/comparison between OECD countries and select countries of interest focused on the recent years across different indicators like job quality, social interactions, health, etc."
+    excerpt: "This is a quality of life analysis/comparison between OECD countries and select countries of interest focused on the recent years across different indicators like job quality, social interactions, health, etc"
     url: "https://lookerstudio.google.com/s/k3oMvSUmD5k"
     btn_class: "btn--primary"
     btn_label: "View report" 
-  - image_path: /images/catchafire-impact.jpg
+  - image_path: /images/catchafire-impact-2024.jpg
     alt: "pro-bono"
     title: "Pro Bono Analytics"
     excerpt: "Analytics help for non-profits"
+    url: https://www.catchafire.org/profiles/1635490/
     btn_class: "btn--primary"
+    btn_label: "List of projects"
   - image_path: /images/people-data.jpg
     alt: "python-package"
     title: "People Analytics Data Python Package"
@@ -31,7 +41,7 @@ feature_row:
     url: "https://github.com/akshayreddykotha/peopleanalyticsdata"
     btn_class: "btn--primary"
     btn_label: "Learn more" 
-feature_row3:
+feature_row5:
   - image_path: /images/media-mix-modelling.png
     alt: "project-title"
     title: "Digital Advertising Spend Optimization - Media Mix Modeling"
@@ -53,7 +63,7 @@ feature_row3:
     url: "https://github.com/akshayreddykotha/mobile-game-analytics"
     btn_class: "btn--primary"
     btn_label: "Learn more"
-feature_row5:
+feature_row7:
   - image_path: /images/rating-recommend.png
     alt: "rating-prediction"
     title: "Rating Prediction for Google Local - User reviews"
@@ -75,7 +85,7 @@ feature_row5:
     url: "https://datastudio.google.com/reporting/f49657cf-fd5b-4214-bea4-ae4d31db5459"
     btn_class: "btn--primary"
     btn_label: "View report"
-feature_row7:
+feature_row9:
   - image_path: https://img.particlenews.com/image.php?type=thumbnail_1024x576&url=2xR9wr_0Nt3lCjk00
     alt: "sql-querying"
     title: "SQL Data Exploration on Jupyter"

@@ -17,7 +17,7 @@ Lately, I have been learning about sustainability and climate solutions through 
 
 ### Skills Timeline
 
-<iframe width="700" height="526" src="https://lookerstudio.google.com/embed/reporting/8b04fa7b-340e-4179-8d71-26348771a44f/page/p_8c6d4clm3c" frameborder="0" style="border:0" allowfullscreen></iframe>
+<iframe width="900" height="826" src="https://lookerstudio.google.com/embed/reporting/8b04fa7b-340e-4179-8d71-26348771a44f/page/p_8c6d4clm3c" frameborder="0" style="border:0" allowfullscreen></iframe>
 
 *Machine Learning Forte*: Regression, Classification, Clustering, Decision Tree, XGBoost, Neural Networks, Ensemble
 

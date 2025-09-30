@@ -12,7 +12,7 @@ excerpt: 'A collection of my data related works.'
 intro: 
   - excerpt: 'Corporate Story-telling, AWS Athena (SQL), AWS Quicksight, MS Excel, GA, Looker Studio (Google Data Studio), R - R Studio, Python - Jupyter, AWS Quicksight, AWS SageMaker, Dataiku, Adobe Analytics, Tableau'
 feature_row:
-  - image_path: /images/
+  - image_path: /images/snapshot-energy-mix.png
     alt: "snapshot-energy-mix"
     title: "Energy Mix Over Time - EIA"
     excerpt: "This is a trend analyis of electricity generation across Renewable and Non Renewable sources in the US."

@@ -27,7 +27,7 @@ author_profile: true
 
 *Relevant coursework*: Customer Analytics, Pricing Analytics, Web Mining and Recommender Systems
 
-*Function specific Forte*: CLV Customer Lifetime Value) Analysis, RFM (Recency, Frequency, Monetary Value) Analysis
+*Function specific Forte*: CLV (Customer Lifetime Value) Analysis, RFM (Recency, Frequency, Monetary Value) Analysis, Digital Marketing Analytics, Google Ads, SEO, Organic Traffic Growth, Email Marketing Analytics
 
 ## In the community
 

@@ -85,7 +85,7 @@ feature_row7:
     url: "https://github.com/akshayreddykotha/mobile-game-analytics"
     btn_class: "btn--primary"
     btn_label: "Learn more"
-feature_row7:
+feature_row9:
   - image_path: /images/rating-recommend.png
     alt: "rating-prediction"
     title: "Rating Prediction for Google Local - User reviews"
@@ -107,7 +107,7 @@ feature_row7:
     url: "https://datastudio.google.com/reporting/f49657cf-fd5b-4214-bea4-ae4d31db5459"
     btn_class: "btn--primary"
     btn_label: "View report"
-feature_row9:
+feature_row11:
   - image_path: https://img.particlenews.com/image.php?type=thumbnail_1024x576&url=2xR9wr_0Nt3lCjk00
     alt: "sql-querying"
     title: "SQL Data Exploration on Jupyter"

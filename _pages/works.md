@@ -10,8 +10,30 @@ header:
   caption:
 excerpt: 'A collection of my data related works.'
 intro: 
-  - excerpt: 'Corporate Story-telling, AWS Athena (SQL), AWS Quicksight, MS Excel, GA, Looker Studio (Google Data Studio), R - R Studio, Python - Jupyter, AWS Quicksight, AWS SageMaker, Dataiku, Adobe Analytics, Tableau'
+  - excerpt: 'PySpark, Databricks, AWS Glue, AWS Athena (SQL), AWS Quicksight, MS Excel, GA, Looker Studio (Google Data Studio), R - R Studio, Python - Jupyter, AWS Quicksight, AWS SageMaker, Dataiku, Adobe Analytics, Tableau'
 feature_row:
+  - image_path: 
+    alt: "wistia-video-analytics"
+    title: "Batch-based Data Ingestion and Processing Pipeline"
+    excerpt: "End-to-end AWS pipeline for ingesting and analyzing video analytics data."
+    url: "https://github.com/akshayreddykotha/wistia-video-analytics"
+    btn_class: "btn--primary"
+    btn_label: "View project" 
+  - image_path: 
+    alt: "real-time-crm-lp-ns"
+    title: "Real-time Customer Relationship Management (CRM) Lead Processing and Notification System"
+    excerpt: "Event-driven lead processing and notification system on AWS."
+    url: "https://github.com/akshayreddykotha/real-time-crm-lp-ns"
+    btn_class: "btn--primary"
+    btn_label: "View project" 
+  - image_path: 
+    alt: "calendly-marketing-insights"
+    title: "Low-latency cross platform Data Engineering System for Marketing Spend and Customer Activity Analysis"
+    excerpt: "Data engineering pipeline for business insights based on events and spend data leveraging cross platform system design (AWS, Databricks, Streamlit)."
+    url: "https://github.com/akshayreddykotha/calendly-marketing-insights"
+    btn_class: "btn--primary"
+    btn_label: "View project" 
+feature_row3:
   - image_path: /images/snapshot-energy-mix.png
     alt: "snapshot-energy-mix"
     title: "Energy Mix Over Time - EIA"
@@ -19,7 +41,7 @@ feature_row:
     url: "https://lookerstudio.google.com/s/j5eZ9Fl33WM"
     btn_class: "btn--primary"
     btn_label: "View analysis" 
-feature_row3:
+feature_row5:
   - image_path: /images/hows-life.png
     alt: "official-logo-oecd-better-life-initiative"
     title: "Quality of Life Analysis - OECD Nations"
@@ -41,7 +63,7 @@ feature_row3:
     url: "https://github.com/akshayreddykotha/peopleanalyticsdata"
     btn_class: "btn--primary"
     btn_label: "Learn more" 
-feature_row5:
+feature_row7:
   - image_path: /images/media-mix-modelling.png
     alt: "project-title"
     title: "Digital Advertising Spend Optimization - Media Mix Modeling"

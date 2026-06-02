@@ -12,14 +12,14 @@ excerpt: 'A collection of my data engineering and analytics works.'
 intro: 
   - excerpt: 'PySpark, Databricks, AWS Glue, AWS Athena (SQL), AWS Quicksight, MS Excel, GA, Looker Studio (Google Data Studio), R - R Studio, Python - Jupyter, AWS Quicksight, AWS SageMaker, Dataiku, Adobe Analytics, Tableau'
 feature_row:
-  - image_path: ![ak-wistia-video-analytics-architecture](/images/ak-wistia-video-analytics-architecture.png)
+  - image_path: /images/ak-wistia-video-analytics-architecture.png
     alt: "wistia-video-analytics"
     title: "Batch-based Data Ingestion and Processing Pipeline"
     excerpt: "End-to-end AWS pipeline for ingesting and analyzing video analytics data."
     url: "https://github.com/akshayreddykotha/wistia-video-analytics"
     btn_class: "btn--primary"
     btn_label: "View project" 
-  - image_path: ![ak-real-time-crm-lp-ns](/images/ak-real-time-crm-lp-ns.png)
+  - image_path: /images/ak-real-time-crm-lp-ns.png
     alt: "real-time-crm-lp-ns"
     title: "Real-time Customer Relationship Management (CRM) Lead Processing and Notification System"
     excerpt: "Event-driven lead processing and notification system on AWS."
